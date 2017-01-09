@@ -7,5 +7,15 @@ block content
     p 2. If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.
     p 3. When I visit that shortened URL, it will redirect me to my original link.
     br
-    h2 Example usage ...
+    h2 Example creation usage 
+    code https://anya92-shorturl.herokuapp.com/new/https://www.google.com
+    br
+    code https://anya92-shorturl.herokuapp.com/new/https://www.github.com
+    h2 Example creation output
+    code {"original_url": "https://www.google.com", "short_url": "https://anya92-shorturl.herokuapp.com/S1364@@8x"}
+    h3 Usage 
+    code https://anya92-shorturl.herokuapp.com/rJkIvb@Ul
+    h3 will redirect to
+    code https://www.gmail.com
+
     
