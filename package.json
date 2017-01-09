@@ -2,6 +2,10 @@
   "name": "url-short",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "6.9.3",
+    "npm": "3.10.10" 
+  }, 
   "scripts": {
     "start": "node ./bin/www"
   },
